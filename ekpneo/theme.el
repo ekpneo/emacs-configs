@@ -16,4 +16,4 @@
       (current-color-theme))))
 
 (add-hook 'after-make-frame-functions 'frame-set-theme)
-(frame-set-theme (selected-frame) t)
+(frame-set-theme (selected-frame) (not window-system))
