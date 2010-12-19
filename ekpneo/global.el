@@ -12,7 +12,8 @@
 (prefer-coding-system 'utf-8)
 
 ; I hate CUA mode
-(cua-mode nil)
+(setq cua-enable-cua-keys nil)
+
 
 ; Don't litter ~ files
 (setq backup-directory-alist
